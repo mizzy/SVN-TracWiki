@@ -1,0 +1,13 @@
+svn:
+  svnlook: /usr/local/bin/svnlook
+  temp_dir: /var/tmp/svn
+
+trac:
+  xmlrpc_endpoint: http://trac.mizzy.org/public/login/xmlrpc
+  realm: trac authorized area
+  username: foo
+  password: bar
+
+plugins:
+  PowerPoint:
+    ppthtml: /usr/local/bin/ppthtml
